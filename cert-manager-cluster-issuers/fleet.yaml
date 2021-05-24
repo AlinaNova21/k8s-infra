@@ -1,0 +1,4 @@
+defaultNamespace: cert-manager
+clusterGroup: cert-manager
+targetCustomizations:
+- clusterGroup: cert-manager

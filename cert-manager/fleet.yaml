@@ -1,5 +1,4 @@
 defaultNamespace: cert-manager
 clusterGroup: cert-manager
-clusterSelector:
-  matchLabels:
-    use-cert-manager: 'true'
+targetCustomizations:
+- clusterGroup: cert-manager
